@@ -6,6 +6,11 @@
 /dev/block/platform/soc/7824900\.sdhci/mmcblk0p34         u:object_r:frp_block_device:s0
 /dev/block/platform/soc/7824900\.sdhci/mmcblk0p50         u:object_r:mba_debug_dev:s0
 
+# Bluetooth
+/(vendor|system/vendor)/bin/hw/android\.hardware\.bluetooth@1\.0-service-qti  u:object_r:hal_bluetooth_qti_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.bluetooth@1\.[0-9]+-service      u:object_r:hal_bluetooth_default_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.bluetooth@1\.[0-9]+-service\.btlinux    u:object_r:hal_bluetooth_btlinux_exec:s0
+
 # FM
 /(vendor|system/vendor)/bin/init\.qti\.fm\.sh               u:object_r:qti_init_shell_exec:s0
 /(vendor|system/vendor)/bin/fm_qsoc_patches     u:object_r:fm_qsoc_patches_exec:s0
