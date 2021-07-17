@@ -164,9 +164,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1
 
-# FM
-PRODUCT_PACKAGES += \
-    FMRadio
+# Moto FM Radio
+PRODUCT_BOOT_JARS += \
+    qcom.fmradio
 
 # GPS
 PRODUCT_PACKAGES += \
