@@ -166,8 +166,7 @@ PRODUCT_PACKAGES += \
 
 # FM
 PRODUCT_PACKAGES += \
-    FMRadio \
-    libfmjni
+    FMRadio
 
 # GPS
 PRODUCT_PACKAGES += \

@@ -216,17 +216,22 @@ vendor/lib64/libscvePanorama_lite.so
 vendor/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so
 vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so
 
-# FM
-system/lib/fm_helium.so
-system/lib/libfm-hci.so
-system/lib64/fm_helium.so
-system/lib64/libfm-hci.so
--product/lib/vendor.qti.hardware.fm@1.0.so
--product/lib64/vendor.qti.hardware.fm@1.0.so
+# FM from Astro - RPL31.Q2-63-10-2
+system_ext/lib/fm_helium.so
+system_ext/lib/libfm-hci.so
+system_ext/lib/libqcomfm_jni.so
+-system_ext/lib/vendor.qti.hardware.fm@1.0.so
+system_ext/lib64/fm_helium.so
+system_ext/lib64/libfm-hci.so
+system_ext/lib64/libqcomfm_jni.so
+-system_ext/lib64/vendor.qti.hardware.fm@1.0.so
 vendor/bin/fm_qsoc_patches
+vendor/etc/init/init.qti.fm.rc
+vendor/etc/init.qti.fm.sh
+vendor/lib/vendor.qti.hardware.fm@1.0.so
 vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so
-vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.fm@1.0.so
+vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so
 
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
